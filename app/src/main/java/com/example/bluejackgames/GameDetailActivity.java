@@ -30,6 +30,7 @@ public class GameDetailActivity extends AppCompatActivity {
         String game = intent.getStringExtra("game");
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_baseline_arrow_back_24);
 
         Image = findViewById(R.id.gameImage);
         Title = findViewById(R.id.txt_title);
