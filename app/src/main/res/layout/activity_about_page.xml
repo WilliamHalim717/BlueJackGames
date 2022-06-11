@@ -21,12 +21,24 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
-            android:paddingHorizontal="40dp">
+            android:paddingHorizontal="40dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bluejack Games"
+                android:layout_gravity="center"
+                android:textSize="24dp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold">
+            </TextView>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="BlueJack Games is a simple mobile app that lets the user choose their favorite games to buy. " />
+                android:text="BlueJack Games is a simple mobile app that lets the user choose their favorite games to buy. "
+                android:textSize="12dp"/>
         </LinearLayout>
 
         <ViewFlipper
